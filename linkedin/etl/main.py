@@ -17,5 +17,6 @@ def linkedin_jobs_etl(linkedin_url):
         print("No se pudo extraer el contenido de la página de LinkedIn.")
 
 if __name__ == "__main__":
-    linkedin_url = "https://www.linkedin.com/jobs/search/?keywords=Python%20Developer&location=Lima%2C%20Peru&f_TPR=r86400" # Ejemplo de URL
+    #linkedin_url = "https://www.linkedin.com/jobs/search/?currentJobId=4237723191&origin=JOBS_HOME_JYMBII" # Ejemplo de URL
+    linkedin_url = "https://www.linkedin.com/jobs/search/?currentJobId=4236007570&f_AL=true&f_I=1594&geoId=102927786&keywords=Jefe&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R&spellCorrectionEnabled=true" # Ejemplo de URL
     linkedin_jobs_etl(linkedin_url=linkedin_url)
